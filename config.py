@@ -10,7 +10,6 @@ mysql = MySQL()
 # MySQL configurations
 app.config['MYSQL_DATABASE_USER'] = 'sql6500670'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'yU7PirIPHl'
-app.config['MYSQL_DATABASE_DB'] = 'attribuer'
+app.config['MYSQL_DATABASE_DB'] = 'sql6500670'
 app.config['MYSQL_DATABASE_HOST'] = 'sql6.freemysqlhosting.net'
 mysql.init_app(app)
-
