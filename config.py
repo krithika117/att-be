@@ -8,8 +8,9 @@ import pymysql
 # Rows from cursors will always be of type dict || cursorclass=DictCursor
 mysql = MySQL()
 # MySQL configurations
-app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = ''
+app.config['MYSQL_DATABASE_USER'] = 'sql6500670'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'yU7PirIPHl'
 app.config['MYSQL_DATABASE_DB'] = 'attribuer'
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+app.config['MYSQL_DATABASE_HOST'] = 'sql6.freemysqlhosting.net'
 mysql.init_app(app)
+
